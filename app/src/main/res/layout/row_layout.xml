@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="75dp">
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="50dp"
+        android:id="@+id/tx_lacation"
+        android:layout_alignParentLeft="true"
+        android:text="Kasun"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+
+        />
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="50dp"
+        android:id="@+id/tx_waterlevel"
+        android:layout_toRightOf="@id/tx_lacation"
+        android:text="Kasun"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+
+        />
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="50dp"
+        android:id="@+id/tx_velocity"
+        android:layout_toRightOf="@id/tx_waterlevel"
+        android:text="Kasun"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+
+        />
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="50dp"
+        android:id="@+id/tx_anyotherdata"
+        android:layout_toRightOf="@id/tx_velocity"
+        android:text="Kasun"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+
+        />
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="50dp"
+        android:id="@+id/tx_imergency"
+        android:layout_toRightOf="@id/tx_anyotherdata"
+        android:text="Kasun"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+
+        />
+
+</RelativeLayout>
